@@ -1,0 +1,1 @@
+This is my version of Rock paper scissors game created with tkinter library for learning and practice purposes.
