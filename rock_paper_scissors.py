@@ -2,7 +2,7 @@ from tkinter import *
 import random
 
 root = Tk()
-# root.iconbitmap('rock.ico')
+root.iconbitmap('rock.ico')
 root.title('Rock Paper Scissors')
 root.resizable(width = False, height = False)
 
