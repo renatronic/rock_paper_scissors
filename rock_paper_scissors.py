@@ -3,7 +3,7 @@ import random
 
 # main window
 root = Tk()
-root.iconbitmap(r'C:/Users/m64/Downloads/python/rock_paper_scissors/rock.ico')
+root.iconbitmap(r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/rock.ico')
 root.title('Rock Paper Scissors')
 root.resizable(width = False, height = False)
 
@@ -11,17 +11,17 @@ click = True
 
 
 # importing images
-hand_rock_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/hand_rock.png')
-hand_paper_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/hand_paper.png')
-hand_scissors_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/hand_scissors.png')
+hand_rock_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/hand_rock.png')
+hand_paper_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/hand_paper.png')
+hand_scissors_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/hand_scissors.png')
 
-rock_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/rock.png')
-paper_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/paper.png')
-scissors_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/scissors.png')
+rock_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/rock.png')
+paper_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/paper.png')
+scissors_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/scissors.png')
 
-win_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/win.png')
-loose_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/loose.png')
-tie_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/tie.png')
+win_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/win.png')
+loose_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/loose.png')
+tie_img = PhotoImage(file = r'C:/Users/m64/Downloads/python/rock_paper_scissors/img/tie.png')
 
 
 # creating buttons
